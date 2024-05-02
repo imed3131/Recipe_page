@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+.App {
+  text-align: center;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Width of the scrollbar */
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.omelette-img{
+  height: 100%;
+  border-radius: 20px;
+}
+.big-box{
+  padding-left: 4%;
+  padding-right: 4%;
+  font-family: "Outfit";
+}
+.prep-time{
+  padding: 3%
+}
+.prep-phrases{
+  padding-left: 3%
+}
+td{
+  padding: 20px 25px;
+}
+.img-box{
+  padding: 4%;
+  max-height: 45rem;
+}
+ul{
+  list-style-type: initial;
+  /* or use 'disc' for ul, 'decimal' for ol */
+  padding-left: 0.5em; /* Adjust indentation as needed */
+}
+ol {
+  list-style-type: decimal;
+  padding-left: 2em;
+}
